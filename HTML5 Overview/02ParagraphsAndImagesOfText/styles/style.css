@@ -1,0 +1,9 @@
+div {
+    margin: 10px;
+}
+
+body div img {
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+}
