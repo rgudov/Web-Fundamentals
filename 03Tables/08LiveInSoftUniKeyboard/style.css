@@ -1,0 +1,80 @@
+table, tr, td, th{
+    border:1px solid black;
+    font-size: 16px;
+
+}
+
+tr{
+    height: 80px;
+}
+td, th {
+    padding: 5px;
+    background: rgba(242, 246, 248, 1);
+    background: -moz-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgb(215, 215, 215) 51%, rgba(224, 239, 249, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242, 246, 248, 1)), color-stop(50%, rgba(216, 225, 231, 1)), color-stop(51%, rgb(215, 215, 215)), color-stop(100%, rgba(224, 239, 249, 1)));
+    background: -webkit-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgb(215, 215, 215) 51%, rgba(224, 239, 249, 1) 100%);
+    background: -o-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgb(213, 213, 213) 51%, rgba(224, 239, 249, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgb(214, 214, 214) 51%, rgba(224, 239, 249, 1) 100%);
+    background: linear-gradient(to bottom, rgba(242, 246, 248, 1) 0%, rgba(216, 225, 231, 1) 50%, rgb(215, 215, 215) 51%, rgba(224, 239, 249, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=0);
+}
+#div1{
+    height: 115px;
+    border:1px solid black;
+}
+#div{
+    margin:4px;
+    padding-top: 15px;
+    border:1px solid black;
+    height: 35px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14px;
+}
+th{
+    font-size: 22px;
+}
+.Google{
+    padding-left: 45px;
+}
+.GitHub{
+    padding-left: 60px;
+}
+.FB{
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+.YouTube{
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.Food{
+     padding-left: 30px;
+}
+.Game{
+    padding-left: 60px;
+}
+.BEER{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 120px;
+}
+.digit{
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+.WC{
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+.GMail{
+    padding-left: 15px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited{
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+table, tr, td, th{
+    border:1px solid black;
+    font-size: 20px;
+}
+table tr{
+    height: 120px;
+}
+#div1{
+    height: 115px;
+    border:1px solid black;
+}
+#div{
+    margin:4px;
+    padding-top: 15px;
+    border:1px solid black;
+    height: 35px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 14px;
+}
+th{
+    font-size: 50px;
+}
+.Google{
+    padding-bottom: 85px;
+}
+.GitHub{
+    padding-left: 130px;
+    padding-bottom: 85px;
+}
+.FB{
+    padding-bottom: 85px;
+    padding-left: 33px;
+}
+.YouTube{
+    padding-top: 85px;
+}
+.Food{
+    padding-top: 85px;
+    padding-left: 45px;
+}
+.Game{
+    padding-top: 85px;
+}
+.BEER{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 200px;
+}

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Havaii;
+    src: url(Animated.ttf);
+}
+
+div{
+    width: 900px;
+    height: 600px;
+    background: lightskyblue;
+    background-image:url('VladoGHula.png'), url('TediHula.png'), url('NakovHula.png'), url('AlexHula.png'), url('PetiaHula.png'), url('VladoKHula.png'), url('HawaiiBackground.png');
+    background-position:3% bottom,35% bottom,64% bottom,83% bottom,26% bottom, 100% bottom,left bottom;
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+
+}
+p{
+    font-family: Havaii;
+    color: #f3b826;
+    margin-top:15px;
+    margin-left:520px;
+    font-size: 42px;
+}

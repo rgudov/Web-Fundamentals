@@ -1,0 +1,92 @@
+body{
+    color: #fdfdfe;
+}
+#fakebook{
+    width: 900px;
+    background-color: #3b5997;
+}
+h1{
+    font-size: 50px;
+    color: #fdfdfe;
+    text-align: center;
+    margin:10px;
+    padding: 0;
+}
+h3{
+    font-size: 30px;
+    color: #fdfdfe;
+    text-align: center;
+    margin:5px;
+    padding: 0;
+}
+h4{
+    font-size: 20px;
+    color: #fdfdfe;
+    text-align: center;
+    margin:5px;
+    padding: 0;
+}
+input{
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+}
+legend{
+    color: #fdfdfe;
+    text-align: center;
+    font-weight: bold;
+}
+textarea{
+    display: inline-block;
+    width: 400px;
+    height: 28px;
+}
+select{
+    width: 143px;
+    height: 30px;
+    border-radius: 5px;
+}
+input[type="text"]{
+    width: 140px;
+    height: 30px;
+}
+fieldset[name="noneImportant"]{
+    display: inline-block;
+    width: 320px;
+    height: 232px;
+    margin: 10px;
+    border-radius: 8px;
+}
+fieldset[name="important"]{
+    display: inline-block;
+    width: 475px;
+    height: 232px;
+    margin: 10px;
+    border-radius: 8px;
+}
+input[name="number"], input[name="floor"], input[name="appartment"]{
+    width: 65px;
+}
+input[name="clear"]{
+    width: 345px;
+    height: 40px;
+    color: #3b5997;
+    font-size: 20px;
+    margin-left:12px ;
+    border-radius: 8px;
+    border:none;
+}
+input[name=submit]{
+    width: 490px;
+    height: 40px;
+    color: #3b5997;
+    font-size: 20px;
+    margin-left:20px ;
+    border-radius: 8px;
+    border:none;
+}
+input[type="color"]{
+    width: 140px;
+    height: 30px;
+
+}

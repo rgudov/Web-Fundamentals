@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <title>Styling a HTML Form</title>
+</head>
+<body>
+<form action="#" method="GET">
+    <p>Step 1: Your details</p>
+    <div>
+        <label for="firstName">Name</label>
+        <input type="text" id="firstName" placeholder="First and last name" >
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="email" id="Email" placeholder="example@domain.com">
+    </div>
+    <div>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" placeholder="eg +447500000000">
+    </div>
+    <p>Step 1: Delivery address</p>
+    <div>
+        <label for="adress">Adress</label>
+        <textarea id="adress" cols="22" rows="5"></textarea>
+    </div>
+    <div>
+        <label for="PostCode">Post code</label>
+        <input type="number" id="PostCode">
+    </div>
+    <div>
+        <label for="country">Country</label>
+        <input type="text" id="country">
+    </div>
+    <p>Step 1: Card details</p>
+    <div id="card">
+
+        <p class="card">Card type</p>
+        <input type="radio" name="card" value="VISA">
+        <img src="http://icons.iconarchive.com/icons/designbolts/credit-card-payment/24/Visa-icon.png">
+        <span>VISA</span>
+        <input type="radio" name="card" value="AmEx">
+        <img src="http://icons.iconarchive.com/icons/virtuallnk/credit-card-icons/32/amex-icon.png">
+        <span>AmEx</span>
+        <input type="radio" name="card" value="Mastercard">
+        <img src="http://icons.iconarchive.com/icons/webiconset/payment/32/Mastercard-icon.png">
+        <span>Mastercard</span>
+    </div>
+    <div>
+        <label for="cardNumber">Card number</label>
+        <input type="number" id="cardNumber">
+    </div>
+    <div>
+        <label for="securityCode">Security code</label>
+        <input type="number" id="securityCode">
+    </div>
+    <div>
+        <label for="nameOfCard">Name of card</label>
+        <input type="text" id="nameOfCard" placeholder="exact name as on the card">
+    </div>
+    <input type="button" id="buyIt"  value="BUY IT!">
+</form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+div{
+    width:370px;
+}
+
+input[type=file]{
+    margin:5px;
+    height: 30px;
+}
+
+input[type=search]{
+    width: 150px;
+    height: 35px;
+
+}

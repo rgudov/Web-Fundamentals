@@ -1,0 +1,98 @@
+#form{
+    width: 790px;
+    height: 420px;
+    background-color: #eeeeee;
+}
+
+fieldset{
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    border: none;
+}
+
+input{
+    width: 340px;
+    height: 40px;
+    margin-bottom: 12px;
+    padding-left: 8px;
+}
+
+input[type="text"]{
+    margin-top: 15px;
+}
+
+#rememberMe{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+h1{
+    color: #234465;
+    margin: 10px;
+}
+
+p{
+    color: #666666;
+    margin: 10px;
+}
+
+span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.silver{
+    color: #666666;
+}
+
+.blue{
+    color: #234465;
+}
+
+#login{
+    background-color: #234465;
+    color: #fdfdfe;
+}
+
+#registerButton{
+    width: 170px;
+    margin-left:180px;
+    background-color: #eeeeee;
+    color:#234465 ;
+    border:3px solid #234465;
+    font-size: 16px;
+}
+
+#registerButton:hover{
+    cursor: pointer;
+    background-color: #234465 ;
+    border:none;
+    color: #fdfdfe;
+}
+
+#loginButton{
+    display: inline-block;
+    width: 170px;
+    margin-left:180px;
+    background-color: #234465;
+    border:3px solid #ff9c00;
+    color: #fdfdfe;
+    font-size: 16px;
+}
+
+#loginButton:hover{
+    cursor: pointer;
+    background-color: #ff9c00;
+    border:none;
+}
+
+a{
+    color: #eeeeee;
+    text-decoration: underline;
+    margin-left:230px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+

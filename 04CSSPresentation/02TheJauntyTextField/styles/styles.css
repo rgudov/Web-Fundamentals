@@ -1,0 +1,127 @@
+body{
+    margin: auto;
+    padding: 0;
+}
+#main{
+    width: 730px;
+    height: 245px;
+    margin: 10px;
+    border-top: 7px dotted #fff844;
+    border-right: 11px solid #068214;
+    border-left: 7px dashed red;
+    border-bottom: 7px double blue;
+    padding-bottom: 20px;
+    box-shadow: 20px 20px 5px #5b5b5b;
+}
+H1{
+    font-size: 50px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 15px 10px 15px #a1a1a1;
+    margin:20px;
+}
+#one{
+    margin:auto;
+    border: 3px solid blue;
+    width: 650px;
+    height: 140px;
+    border-radius: 60px;
+}
+#two{
+    border: 3px solid #007f01;
+    width: 644px;
+    height: 134px;
+    border-radius: 60px;
+}
+#tree{
+    border: 3px solid #fdfd01;
+    width: 638px;
+    height: 128px;
+    border-radius: 60px;
+}
+#four{
+    border: 3px solid #b90004;
+    width: 630px;
+    height: 120px;
+    border-radius: 60px;
+}
+p{
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 15px 10px 15px #a1a1a1;
+    margin:20px;
+}
+#button{
+    display: inline-block;
+    margin:auto;
+    width: 220px;
+    height: 30px;
+    background-color:#ce992f ;
+    border: 3px outset #c5962f;
+    color:black;
+    font-size: 22px;
+    text-align: center;
+}
+div#four :nth-child(2){
+    margin-left: 90px;
+}
+#circleOne{
+    width: 35px;
+    height: 35px;
+    border-radius: 90%;
+    background-color: #a1a1a1;
+    position: fixed;
+    left: 575px;
+    top: 170px;
+    opacity: 0.7;
+    border:3px
+}
+#insideCircleOne{
+    width: 20px;
+    height: 20px;
+    border-radius: 90%;
+    margin:5px;
+    border:3px dashed #ffffff;
+}
+#circleTwo{
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+    background-color: #a1a1a1;
+    position: fixed;
+    left: 630px;
+    top: 130px;
+    opacity: 0.7;
+    border:3px
+}
+#insideCircleTwo{
+    width: 33px;
+    height: 33px;
+    border-radius: 90%;
+    margin:5px;
+    border:3px dashed #ffffff;
+}
+#circleTree{
+    width: 150px;
+    height: 90px;
+    border-radius: 50px;
+    background-color: #a1a1a1;
+    position: fixed;
+    left: 680px;
+    top: 50px;
+    opacity: 0.7;
+    border:3px
+}
+#insideCircleTree{
+    width: 135px;
+    height: 75px;
+    border-radius: 50px;
+    margin:5px;
+    border:3px dashed #ffffff;
+}
+#insideCircleTree > p{
+    color:#ffffff;
+    margin-top: 10px;
+    font-weight: bold;
+
+}

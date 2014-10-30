@@ -1,0 +1,12 @@
+table, th, tr, td{
+    border: 1px solid black;
+}
+table tr td{
+    padding:3px;
+}
+table thead th{
+    font-size: 24px;
+}
+table tfoot{
+    text-align: right;
+}
