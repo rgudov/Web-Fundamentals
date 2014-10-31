@@ -1,0 +1,75 @@
+h3{
+    margin:0;
+    text-align: center;
+}
+
+h4{
+    margin:10px;
+    text-align: center;
+}
+
+a{
+    width: 180px;
+    height: 240px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    border:1px solid #d3d3d3;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px;
+}
+a:hover{
+    border:2px solid #ff1107;
+    margin: 2px;
+}
+
+img{
+    width: 170px;
+    height: 130px;
+}
+
+.laptops{
+    display: inline-block;
+    width: 620px;
+    height: 528;
+}
+
+.price{
+    background-color: #314860;
+    color: #ededed;
+    width: 85px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 75px;
+    border-radius: 10px 0 0 0;
+}
+
+#search-sliders{
+    display: inline-block;
+    background-color: #f7fbfe;
+    width: 184px;
+    height: 515px;
+    padding: 2px;
+    margin: 3px 0 0 10px;
+    border:1px solid #d3d3d3;
+    border-radius: 5px;
+
+}
+
+input[type="range"]{
+    width: 180px;
+}
+
+.min{
+    width: 87px;
+    display: inline-block;
+}
+
+.max{
+    width: 87px;
+    text-align: right;
+    display: inline-block;
+}
