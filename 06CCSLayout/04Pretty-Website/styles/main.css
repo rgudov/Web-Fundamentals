@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+
+}
+
+.clearFix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.main{
+    width: 900px;
+    margin:auto;
+    padding: 0;
+}
+
+header{
+    background-image: url("headerBackground.jpg");
+    width: 100%;
+    height: 250px;
+    margin:0;
+    background-repeat: no-repeat;
+}
+.head{
+    margin: 0;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    padding: 180px 45px 0 0;
+}
+nav{
+    width: 900px;
+    height: auto;
+    background-color: #e4e4e4;
+    padding: 11px 0 0 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    width: 900px;
+    height: 33px;
+}
+ul li{
+    margin:0;
+    padding: 0;
+    float: left;
+    display: inline;
+    font-size: 18px;
+
+}
+ul li a{
+    color: #575757;
+    padding: 10px 15px 10px 15px;
+    background-color: #e4e4e4;
+    text-decoration: none;
+    border:1px solid white;
+}
+
+ul li a:hover{
+    color: #d6e7ec;
+    background-color: #9f9f9f;
+}
+
+article{
+    width: 580px;
+    border:1px solid #d6e7ec;
+    margin:25px 25px 25px 45px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.news{
+    width: 200px;
+    border:1px solid #d6e7ec;
+    margin:10px;
+    position: relative;
+    left: 660px;
+    bottom: 765px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #e4e4e4;
+
+}
+.messages{
+    width: 200px;
+    border:1px solid #d6e7ec;
+    margin:10px;
+    padding: 10px;
+    border-radius: 15px;
+    position: relative;
+    left: 660px;
+    bottom: 765px;
+
+}
+
+h2{
+    color: #84bd1b;
+    font-size: 22px;
+}
+h3{
+}
+a{
+    color: #84bd1b;
+}
+img{
+    display: inline-block;
+}
+.products{
+    display: inline-block;
+
+}
+.prod-info{
+    position: static;
+    display: inline-block;
+    width: 400px;
+    padding: 5px;
+}
+footer {
+    clear: both;
+    height: 50px;
+    display: block;
+    padding-top: 30px;
+    padding-left: 130px;
+    background-color: #9FD63D;
+    color: black;
+    position: relative;
+    bottom: 730px;
+}
