@@ -1,0 +1,49 @@
+main{
+    width: 900px;
+    height: 400px;
+    background-color: #fdbfca;
+    border-radius: 10px;
+}
+section{
+    width: 960px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+meter{
+    margin-left: 45px;
+}
+
+img{
+    width: 240px;
+    height: 200px;
+    position: relative;
+    left:-35px
+}
+
+.first{
+    width: 180px;
+    display:inline-block;
+    padding: 5px;
+    float: left;
+}
+
+.second{
+    display:inline-block;
+    margin-left: 70px;
+    padding: 5px;
+    width: 380px;
+    float: left;
+}
+
+.third{
+    display:inline-block;
+    padding: 5px;
+    position: relative;
+    left: -75px;
+}
+audio{
+    display: inline-block;
+}
