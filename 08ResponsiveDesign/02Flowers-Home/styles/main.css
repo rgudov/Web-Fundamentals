@@ -1,0 +1,280 @@
+body{
+    margin:0;
+    padding: 0;
+    background-image: url("../images/background-flowers.jpg");
+    font-family: Tahoma;
+    font-size: 18px;
+}
+
+#wrapper{
+    margin:auto;
+    width: 960px;
+}
+
+/* HEADER */
+
+header{
+    background-color:rgba(254, 227, 229, 0.9) ;
+    width: 956px;
+    height: auto;
+    float: left;
+    border:2px solid black;
+    margin: 10px 0 15px 0;
+}
+
+header h1 a img{
+    float: left;
+    width: 25%;
+    height: 45%;
+    margin: 5px;
+}
+
+header h1 a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header h1 a span{
+    float: right;
+    color: black;
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+header nav{
+    display: block;
+    clear: both;
+    float: right;
+    margin-right: 10px;
+}
+
+header nav ul li{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    background-color: #ea2a7b;
+    text-align: center;
+    border:1px solid black;
+}
+
+header nav ul li:hover{
+    opacity: 0.6;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+    line-height: 35px;
+}
+
+
+/* LEFT */
+
+.left{
+    clear: both;
+    width: 185px;
+    height: 310px;
+    float: left;
+    border:2px solid black;
+    background-color:rgba(254, 227, 229, 0.9) ;
+
+}
+
+.left ul{
+    padding: 5px;
+}
+
+.left ul li{
+    list-style: none;
+}
+
+.left ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+}
+
+/* RIGHT */
+.right{
+    float: right;
+    width: 185px;
+    height: 310px;
+    padding: 0;
+    font-size: 0.9em;
+    background-color:rgba(254, 227, 229, 0.9) ;
+    border: 2px solid black;
+}
+.right ul{
+    padding: 10px;
+    margin: 0;
+}
+
+.right ul li{
+    list-style: none;
+}
+
+/*SECTION*/
+section{
+    width: 560px;
+    float: right;
+    padding: 0;
+    background-color:rgba(254, 227, 229, 0.9) ;
+    border: 2px solid black;
+    margin: 0 9px 0 9px;
+}
+
+section img{
+    width: 20%;
+    padding: 2%;
+}
+
+section img:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+footer{
+    clear: both;
+}
+
+section article header{
+    width: 90%;
+    border: none;
+    padding: 10px 0 10px 15px;
+}
+section article header h1{
+    padding: 0;
+    margin: 0;
+}
+
+/*FOOTER*/
+footer{
+    background-color:rgba(254, 227, 229, 0.9) ;
+    border: 2px solid black;
+    width: 956px;
+    height: 100px;
+    float: left;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+footer h2{
+    font-size: 1.2em;
+    color: black;
+    line-height: 50px;
+}
+
+footer h2 a{
+    text-decoration: underline;
+    font-size: 1.2em;
+    color: black;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 960px){
+    header{width: 100%}
+
+    #wrapper{
+        width: 100%;
+    }
+
+    .left{
+        width: 20%;
+    }
+
+    .right{
+        width: 20%;
+    }
+
+    section{
+        width: 56%;
+        margin: 0 1% 0 1%;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 830px){
+    body{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 670px){
+    header nav{
+        display: block;
+        width: 92%;
+        float: left;
+    }
+
+    header nav ul li {
+        display: block;
+        width: 100%;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size: 1.3em;
+    }
+
+    header{
+        float: left;
+        width: 99%;
+    }
+
+    header nav{
+        display: block;
+        width: 99%;
+        float: left;
+    }
+
+    header nav ul li {
+        display: block;
+        width: 99%;
+        height: 40px;
+    }
+    header nav ul{
+        padding: 10px;
+    }
+    #wrapper{
+        display: block;
+        width: 99%;
+        float: left;
+    }
+
+    .left{
+        display: block;
+        width: 99%;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .right{
+        display: block;
+        width: 99%;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    section{
+        display: block;
+        width: 99%;
+        margin: 0 1% 0 1%;
+        float: left;
+
+    }
+    footer{
+        display: block;
+        width: 99%;
+        float: left;
+    }
+    footer h2{
+        font-size: 0.9em;
+    }
+}
+

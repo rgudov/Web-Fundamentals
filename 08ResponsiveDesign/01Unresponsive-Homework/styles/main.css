@@ -1,0 +1,179 @@
+body{
+    margin: auto;
+    padding: 0;
+    background-color: #6697fe;
+    font-size: 16px;
+    font-family: Tahoma;
+    width: 960px;
+}
+
+header h1{
+    text-align: justify;
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+    margin: 0;
+}
+
+header h1 span{
+    font-size: 36px;
+    color:white;
+    padding: 5px;
+
+}
+
+a{
+    text-decoration: none;
+}
+nav{
+    margin-top:-32px;
+    float: right;
+    padding-right: 20px;
+}
+header nav ul{
+    float:right;
+    display: block;
+}
+
+header nav ul li{
+    display:inline-block;
+    width: 100px;
+    height: 20px;
+    background-color: #fdfdfe;
+    text-align: center;
+    padding: 3px;
+    line-height: 22px;
+    border:1px solid black;
+}
+header nav ul li a{
+    color: black;
+}
+
+section{
+    text-align: justify;
+    width: 70%;
+    margin: 2% 2% 2% 0;
+    display: inline-block;
+}
+
+article{
+    width: 100%;
+    background-color: #dfe9fd;
+    border:1px solid black;
+    padding: 8px;
+    margin-bottom: 12px;
+
+}
+
+article h1{
+    font-size: 20px;
+    margin:10px 0 0 0;
+    padding: 0 ;
+    border: none;
+}
+
+article p{
+    text-indent: 40px;
+}
+
+.news{
+    background-color: #dfe9fd;
+    border:1px solid black;
+    width: 23%;
+    margin: 2% 3% 0 0;
+    float: right;
+    display: inline-block;
+}
+
+.news ul{
+    padding: 8px;
+
+}
+
+.news ul li{
+    margin-bottom: 8px;
+    list-style: none;
+
+}
+
+.news a{
+    color:black;
+}
+
+footer{
+    width: 100%;
+    background-color: #dfe9fd;
+    border:1px solid black;
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 980px){
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    section{
+        width: 65%;
+    }
+
+    .news{
+        width: 25%;
+    }
+
+    footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+        text-align: center;
+    }
+    header img{
+        display: block;
+        margin: auto;
+    }
+    header h1 span{
+        display: block;
+        text-align: center;
+    }
+    header nav ul{
+        float: none;
+    }
+    header nav ul li{
+        width: 60%;
+        display: block;
+        margin: auto;
+    }
+
+    nav{
+        display: block;
+        float: none;
+    }
+    section{
+        width: 95%;
+        margin: 1%;
+
+    }
+
+    .news{
+        width: 97%;
+        margin: 1%;
+        float: none;
+    }
+
+    footer{
+        width: 97%;
+        margin: 1%;
+    }
+}
